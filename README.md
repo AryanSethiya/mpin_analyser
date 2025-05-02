@@ -44,7 +44,7 @@ The application includes a comprehensive test suite that verifies:
 - Edge case handling
 - Invalid input detection
 
-![Test Suite Screenshot](https://i.imgur.com/5XJQqLp.png)
+
 
 ## 🏗️ Project Setup
 
