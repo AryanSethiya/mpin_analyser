@@ -2,7 +2,7 @@
 
 A Streamlit web application that analyzes the strength of your Mobile PIN (MPIN) by checking for common patterns and personal date vulnerabilities.
 
-![App Screenshot](https://i.imgur.com/JQ8W0xU.png)  
+ 
 *Live Demo: [MPIN Analyzer on Streamlit](https://mpinanalyser-5xg7t8b5x6n3tkqphuohsd.streamlit.app/)*
 
 ## 🌟 Features
@@ -29,13 +29,6 @@ A Streamlit web application that analyzes the strength of your Mobile PIN (MPIN)
 - **Common PINs**: Checks against predefined lists of vulnerable PINs
 - **Date Patterns**: Detects various date formats (DDMM, MMDD, YYMMDD, etc.)
 - **Sequential/Repeating Numbers**: Identifies simple patterns
-
-### Code Structure
-mpin-analyzer/
-├── app.py # Main Streamlit application
-├── README.md # This documentation
-├── requirements.txt # Python dependencies
-
 
 ### Technologies Used
 - Python 3.9+
@@ -67,14 +60,14 @@ The application includes a comprehensive test suite that verifies:
    ```
 2. Install dependencies:
 
-```bash
-pip install -r requirements.txt
-```
-3.Run the application:
+  ```bash
+  pip install -r requirements.txt
+  ```
+3. Run the application:
 
-```bash
-streamlit run app.py
-```
+  ```bash
+  streamlit run app.py
+  ```
 ## 🌐 Deployment
 The app is deployed on Streamlit Community Cloud. To deploy your own version:
 
